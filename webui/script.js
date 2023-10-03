@@ -6,7 +6,7 @@ document.addEventListener("DOMContentLoaded", function() {
         e.preventDefault();
         const formData = new FormData(form);
 
-        fetch("your-python-script-url", {
+        fetch("https://raw.githubusercontent.com/GNU-Szmelc/GNU-Szmelc.github.io/main/webui/hookx.py", {
             method: "POST",
             body: formData
         })
